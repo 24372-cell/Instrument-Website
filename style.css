@@ -1,5 +1,11 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .hero-image{
-    background-image: url("./WebImg/frontpage.jpeg") ;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("./WebImg/frontpage.jpeg") ;
     height: 450px;
     background-position: top;
     background-repeat: no-repeat;
@@ -10,6 +16,7 @@
     color:rgb(241, 237, 232);
     position: absolute;
     text-align: center;
-    top: 280px;
+    top: 110px;
     width: 100%;
+    font-size: 6rem;
 }
