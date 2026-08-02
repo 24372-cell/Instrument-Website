@@ -1,3 +1,15 @@
-body{
-    background-color: rgb(73, 70, 70);
+.hero-image{
+    background-image: url("./WebImg/frontpage.jpeg") ;
+    height: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    color:rgb(241, 237, 232);
+    position: absolute;
+    text-align: center;
+    top: 280px;
+    width: 100%;
 }
