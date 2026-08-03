@@ -1,5 +1,5 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .hero-image{
@@ -16,7 +16,16 @@
     color:rgb(241, 237, 232);
     position: absolute;
     text-align: center;
-    top: 110px;
+    top: 10%;
     width: 100%;
     font-size: 6rem;
+}
+
+.discover{
+    color:rgb(241, 237, 232);
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+    font-size: 2rem;
 }
