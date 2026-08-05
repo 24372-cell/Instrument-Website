@@ -1,5 +1,5 @@
 *{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero-image{
@@ -21,11 +21,19 @@
     font-size: 6rem;
 }
 
-.discover{
+.herosubtitle{
     color:rgb(241, 237, 232);
     position: absolute;
     text-align: center;
     top: 25%;
     width: 100%;
     font-size: 2rem;
+}
+
+.intro{
+    font-size: 3rem;
+    text-align: center;
+    color: azure;
+    background-color: black;
+    padding: 30px 20px;
 }
