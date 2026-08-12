@@ -37,3 +37,14 @@
     background-color: black;
     padding: 30px 20px;
 }
+
+.family-img{
+    width: 300px;
+    height: 300px;
+}
+
+.Families{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
