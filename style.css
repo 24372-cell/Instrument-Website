@@ -25,7 +25,7 @@
     color:rgb(241, 237, 232);
     position: absolute;
     text-align: center;
-    top: 25%;
+    top: 30%;
     width: 100%;
     font-size: 2rem;
 }
@@ -45,6 +45,11 @@
 
 .Families{
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap:150px;
+    margin:auto;
+    color:aliceblue;
+    background-color: rgb(61, 61, 61);
+    padding-top: 40px;
 }
