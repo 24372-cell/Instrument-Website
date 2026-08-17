@@ -47,9 +47,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:150px;
+    gap:100px;
     margin:auto;
     color:aliceblue;
     background-color: rgb(61, 61, 61);
     padding-top: 40px;
+}
+
+.info{
+    background-color: black;
+    padding-top: 30px;
+}
+
+.info h2{
+    font-size: 3rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.info p{
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-align: center;
 }
