@@ -55,18 +55,20 @@
 }
 
 .info{
-    background-color: black;
+    background-color: rgb(7, 7, 7);
     padding-top: 30px;
+    color: aliceblue;
 }
 
-.info h2{
+.comparison{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.comparison h3{
     font-size: 3rem;
-    color: aliceblue;
-    text-align: center;
 }
-
-.info p{
-    font-size: 2.5rem;
-    color: aliceblue;
-    text-align: center;
+.comparison p{
+    font-size: 2rem;
 }
