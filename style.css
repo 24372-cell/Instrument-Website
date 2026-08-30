@@ -94,3 +94,49 @@
     justify-content: center;
 
 }
+
+
+.hero-string{
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("./WebImg/frontpage.jpeg") ;
+    height: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-stringtext{
+    color:rgb(241, 237, 232);
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    font-size: 6rem;
+}
+
+.herostringsubtitle{
+    color:rgb(241, 237, 232);
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.violinimg{
+    width: 100%;
+}
+
+.violin{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.violininfo{
+    font-size: 1.25rem;
+}
