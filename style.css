@@ -95,7 +95,6 @@
 
 }
 
-
 .hero-string{
     background-image: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -124,9 +123,6 @@
     font-size: 2rem;
 }
 
-.violinimg{
-    width: 100%;
-}
 
 .violin{
     display:grid;
@@ -138,5 +134,44 @@
 }
 
 .violininfo{
+    font-size: 1.25rem;
+}
+
+.viola{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.violainfo{
+    font-size: 1.25rem;
+}
+
+.cello{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.celloinfo{
+    font-size: 1.25rem;
+}
+
+.doublebass{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.doublebassinfo{
     font-size: 1.25rem;
 }
