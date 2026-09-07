@@ -2,6 +2,9 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+html, body{
+    background-color:rgb(70, 69, 69)
+}
 .hero-image{
     background-image: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -47,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:100px;
+    gap:50px;
     margin:auto;
     color:aliceblue;
     background-color: rgb(61, 61, 61);
@@ -124,6 +127,7 @@
 }
 
 
+
 .violin{
     display:grid;
     grid-template-columns: 1fr 3fr;
@@ -131,10 +135,23 @@
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.violinimg{
+    min-width:0;
+}
+
+.violinimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .violininfo{
     font-size: 1.25rem;
+    color: aliceblue;
 }
 
 .viola{
@@ -144,10 +161,23 @@
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.violaimg{
+    min-width:0;
+}
+
+.violaimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .violainfo{
     font-size: 1.25rem;
+    color: aliceblue;
 }
 
 .cello{
@@ -157,10 +187,23 @@
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.celloimg{
+    min-width:0;
+}
+
+.celloimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .celloinfo{
     font-size: 1.25rem;
+    color: aliceblue;
 }
 
 .doublebass{
@@ -170,8 +213,47 @@
     width: 80%;
     margin: auto;
     margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.doublebassimg{
+    min-width:0;
+}
+
+.doublebassimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .doublebassinfo{
     font-size: 1.25rem;
+    color: aliceblue;
+}
+
+.guitar{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.guitarimg{
+    min-width:0;
+}
+
+.guitarimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.guitarinfo{
+    font-size: 1.25rem;
+    color: aliceblue;
 }
