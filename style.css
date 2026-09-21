@@ -283,3 +283,162 @@ html, body{
     font-size: 1.25rem;
     color: aliceblue;
 }
+
+.hero-wind{
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("./WebImg/frontpage.jpeg") ;
+    height: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-windtext{
+    color:rgb(241, 237, 232);
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+    font-size: 6rem;
+}
+
+.herowindsubtitle{
+    color:rgb(241, 237, 232);
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    font-size: 2rem;
+}
+
+
+.Flute{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.fluteimg{
+    min-width:0;
+}
+
+.fluteimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.fluteinfo{
+    font-size: 1.25rem;
+    color: aliceblue;
+}
+
+.oboe{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.oboeimg{
+    min-width:0;
+}
+
+.oboeimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.oboeinfo{
+    font-size: 1.25rem;
+    color: aliceblue;
+}
+
+.clarinet{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.clarinetimg{
+    min-width:0;
+}
+
+.clarinetimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.clarinetinfo{
+    font-size: 1.25rem;
+    color: aliceblue;
+}
+
+.bassoon{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.bassoonimg{
+    min-width:0;
+}
+
+.bassoonimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.bassooninfo{
+    font-size: 1.25rem;
+    color: aliceblue;
+}
+
+.saxophone{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(7, 7, 7);
+    padding: 70px;
+}
+
+.saxophoneimg{
+    min-width:0;
+}
+
+.saxophoneimg img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.saxophoneinfo{
+    font-size: 1.25rem;
+    color: aliceblue;
+}
