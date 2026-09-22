@@ -98,7 +98,7 @@ html, body{
 
 }
 
-.hero-string{
+.hero-string , .hero-wind , .hero-brass , .hero-other{
     background-image: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
         url("./WebImg/frontpage.jpeg") ;
@@ -108,7 +108,7 @@ html, body{
     background-size: cover;
 }
 
-.hero-stringtext{
+.hero-stringtext , .hero-windtext , .hero-brasstext , .hero-othertext{
     color:rgb(241, 237, 232);
     position: absolute;
     text-align: center;
@@ -117,7 +117,7 @@ html, body{
     font-size: 6rem;
 }
 
-.herostringsubtitle{
+.herostringsubtitle , .herowindsubtitle , .herobrasssubtitle , .heroothersubtitle{
     color:rgb(241, 237, 232);
     position: absolute;
     text-align: center;
@@ -126,9 +126,7 @@ html, body{
     font-size: 2rem;
 }
 
-
-
-.violin{
+.violin , .viola , .cello , .doublebass , .guitar , .electricbass{
     display:grid;
     grid-template-columns: 1fr 3fr;
     gap: 50px;
@@ -139,22 +137,22 @@ html, body{
     padding: 70px;
 }
 
-.violinimg{
+.violinimg , .violaimg , .celloimg , .doublebassimg , .guitarimg , .eletricbassimg{
     min-width:0;
 }
 
-.violinimg img{
+.violinimg img , .violaimg img , .celloimg img , .doublebassimg img , .guitarimg img , .electricbassimg img{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.violininfo{
+.violininfo , .violainfo , .celloinfo , .doublebassinfo , .guitarinfo , .electricbassinfo{
     font-size: 1.25rem;
     color: aliceblue;
 }
 
-.viola{
+.Flute, .oboe , .clarinet , .bassoon , .saxophone{
     display:grid;
     grid-template-columns: 1fr 3fr;
     gap: 50px;
@@ -165,22 +163,22 @@ html, body{
     padding: 70px;
 }
 
-.violaimg{
+.fluteimg , .oboeimg , .clarinetimg , .bassoonimg , .saxophoneimg{
     min-width:0;
 }
 
-.violaimg img{
+.fluteimg img , .oboeimg img , .clarinetimg img , .bassoonimg img , .saxophoneimg img{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.violainfo{
+.fluteinfo , .oboeinfo , .clarinetinfo , .bassooninfo , .saxophoneinfo{
     font-size: 1.25rem;
     color: aliceblue;
 }
 
-.cello{
+.trumpet, .trombone , .frenchhorn , .euphonium , .tuba{
     display:grid;
     grid-template-columns: 1fr 3fr;
     gap: 50px;
@@ -191,22 +189,22 @@ html, body{
     padding: 70px;
 }
 
-.celloimg{
+.trumpetimg , .tromboneimg , .frenchhornimg , .euphoniumimg , .tubaimg{
     min-width:0;
 }
 
-.celloimg img{
+.trumpetimg img , .tromboneimg img , .frenchhornimg img , .euphoniumimg img , .tubaimg img{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.celloinfo{
+.trumpetinfo , .tromboneinfo , .frenchhorninfo , .euphoniuminfo , .tubainfo{
     font-size: 1.25rem;
     color: aliceblue;
 }
 
-.doublebass{
+.percussion, .drumkit , .piano , .organ{
     display:grid;
     grid-template-columns: 1fr 3fr;
     gap: 50px;
@@ -217,228 +215,17 @@ html, body{
     padding: 70px;
 }
 
-.doublebassimg{
+.percussionimg , .drumkitimg , .pianoimg , .organimg{
     min-width:0;
 }
 
-.doublebassimg img{
+.percussionimg img , .drumkitimg img , .pianoimg img , .organimg img{
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
 
-.doublebassinfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.guitar{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.guitarimg{
-    min-width:0;
-}
-
-.guitarimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.guitarinfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.electricbass{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.eletricbassimg{
-    min-width:0;
-}
-
-.electricbassimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.electricbassinfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.hero-wind{
-    background-image: 
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url("./WebImg/frontpage.jpeg") ;
-    height: 450px;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-windtext{
-    color:rgb(241, 237, 232);
-    position: absolute;
-    text-align: center;
-    top: 10%;
-    width: 100%;
-    font-size: 6rem;
-}
-
-.herowindsubtitle{
-    color:rgb(241, 237, 232);
-    position: absolute;
-    text-align: center;
-    top: 30%;
-    width: 100%;
-    font-size: 2rem;
-}
-
-
-.Flute{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.fluteimg{
-    min-width:0;
-}
-
-.fluteimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.fluteinfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.oboe{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.oboeimg{
-    min-width:0;
-}
-
-.oboeimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.oboeinfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.clarinet{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.clarinetimg{
-    min-width:0;
-}
-
-.clarinetimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.clarinetinfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.bassoon{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.bassoonimg{
-    min-width:0;
-}
-
-.bassoonimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.bassooninfo{
-    font-size: 1.25rem;
-    color: aliceblue;
-}
-
-.saxophone{
-    display:grid;
-    grid-template-columns: 1fr 3fr;
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    background-color: rgb(7, 7, 7);
-    padding: 70px;
-}
-
-.saxophoneimg{
-    min-width:0;
-}
-
-.saxophoneimg img{
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-}
-
-.saxophoneinfo{
+.percussioninfo , .drumkitinfo , .pianoinfo , .organinfo{
     font-size: 1.25rem;
     color: aliceblue;
 }
